@@ -1,0 +1,62 @@
+.header tr {
+ background: #8FD4C1;
+}
+.header td {
+ background: #8FD4C1;
+ font-weight: bold;
+}
+
+#blink {
+  -webkit-animation: blink 3s linear infinite;
+  animation: blink 3s linear infinite;
+}
+@-webkit-keyframes blink {
+  50% { color: rgb(34, 34, 34); }
+  51% { color: rgba(34, 34, 34, 0); }
+  100% { color: rgba(34, 34, 34, 0); }
+}
+@keyframes blink {
+  50% { color: rgb(34, 34, 34); }
+  51% { color: rgba(34, 34, 34, 0); }
+  100% { color: rgba(34, 34, 34, 0); }
+}
+caption
+{
+  padding: 10px;
+  color: white;
+  background: #8FD4C1;
+  font-size: 18px;
+  text-align: left;
+  font-weight: bold;
+}
+}
+.calls table {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+  border-collapse: collapse;
+  color: #686461;
+  width: 80%;
+}
+.calls caption {
+  padding: 10px;
+  color: white;
+  background: #8FD4C1;
+  font-size: 12px;
+  text-align: left;
+  font-weight: bold;
+}
+
+.calls th {
+  border-bottom: 3px solid #B9B29F;
+  padding: 10px;
+  text-align: left;
+}
+.calls td {
+  padding: 10px;
+}
+.calls tr:nth-child(odd) {
+  background: white;
+}
+.calls tr:nth-child(even) {
+  background: #E8E6D1;
+}
+
